@@ -1,18 +1,38 @@
 {
   "name": "jest-txt-reporter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Jest test results processor for generating a summary in HTML",
+  "main": "dist/index.js",
+  "unpkg": "dist/index.js",
+  "files": [
+    "dist",
+    "style"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "test": "jest",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.11",
-    "jest": "^29.7.0",
+    "@types/xml": "^1.0.11",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "mkdir": "^0.0.2",
+    "prettier": "^3.1.1",
     "ts-jest": "^29.1.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "xml": "^1.0.1"
+  },
+  "dependencies": {
+    "@jest/reporters": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-junit": "^16.0.0",
+    "mkdirp": "^3.0.1"
   }
 }

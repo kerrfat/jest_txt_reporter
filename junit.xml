@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="20" failures="3" errors="0" time="5.362">
+  <testsuite name="Sample Test Suite 2" errors="0" failures="2" skipped="0" timestamp="2023-12-27T19:52:30" time="4.462" tests="10">
+    <testcase classname="Sample Test Suite 2 Test 11" name="Sample Test Suite 2 Test 11" time="0.015">
+    </testcase>
+    <testcase classname="Sample Test Suite 2 Test 12" name="Sample Test Suite 2 Test 12" time="0.004">
+      <failure>Error: expect(received).toContain(expected) // indexOf
+
+Expected substring: &quot;z&quot;
+Received string:    &quot;world&quot;
+    at Object.&lt;anonymous&gt; (C:\Dev\node-projects\jest-txt-reporter\__tests__\sample-2.spec.ts:7:21)
+    at Promise.then.completed (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\utils.js:231:10)
+    at _callCircusTest (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\run.js:252:3)
+    at _runTestsForDescribeBlock (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\run.js:126:9)
+    at _runTestsForDescribeBlock (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\run.js:121:9)
+    at run (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\run.js:71:3)
+    at runAndTransformResultsToJestFormat (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+    at jestAdapter (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Sample Test Suite 2 Test 13" name="Sample Test Suite 2 Test 13" time="0.001">
+    </testcase>
+    <testcase classname="Sample Test Suite 2 Test 14" name="Sample Test Suite 2 Test 14" time="0.001">
+    </testcase>
+    <testcase classname="Sample Test Suite 2 Test 15" name="Sample Test Suite 2 Test 15" time="0.003">
+    </testcase>
+    <testcase classname="Sample Test Suite 2 Test 16" name="Sample Test Suite 2 Test 16" time="0.003">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: ArrayContaining [10, 3]
+Received: [1, 2, 3]
+    at Object.&lt;anonymous&gt; (C:\Dev\node-projects\jest-txt-reporter\__tests__\sample-2.spec.ts:23:23)
+    at Promise.then.completed (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\utils.js:231:10)
+    at _callCircusTest (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\run.js:252:3)
+    at _runTestsForDescribeBlock (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\run.js:126:9)
+    at _runTestsForDescribeBlock (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\run.js:121:9)
+    at run (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\run.js:71:3)
+    at runAndTransformResultsToJestFormat (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+    at jestAdapter (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Sample Test Suite 2 Test 17" name="Sample Test Suite 2 Test 17" time="0.001">
+    </testcase>
+    <testcase classname="Sample Test Suite 2 Test 18" name="Sample Test Suite 2 Test 18" time="0.001">
+    </testcase>
+    <testcase classname="Sample Test Suite 2 Test 19" name="Sample Test Suite 2 Test 19" time="0.001">
+    </testcase>
+    <testcase classname="Sample Test Suite 2 Test 20" name="Sample Test Suite 2 Test 20" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Sample Test Suite 1" errors="0" failures="1" skipped="1" timestamp="2023-12-27T19:52:30" time="4.621" tests="10">
+    <testcase classname="Sample Test Suite 1 Test 1" name="Sample Test Suite 1 Test 1" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="Sample Test Suite 1 Test 2" name="Sample Test Suite 1 Test 2" time="0.013">
+    </testcase>
+    <testcase classname="Sample Test Suite 1 Test 3" name="Sample Test Suite 1 Test 3" time="0.014">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;Hello&quot;
+Received: &quot;hello&quot;
+    at Object.&lt;anonymous&gt; (C:\Dev\node-projects\jest-txt-reporter\__tests__\sample-1.spec.ts:11:21)
+    at Promise.then.completed (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\utils.js:231:10)
+    at _callCircusTest (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\run.js:252:3)
+    at _runTestsForDescribeBlock (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\run.js:126:9)
+    at _runTestsForDescribeBlock (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\run.js:121:9)
+    at run (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\run.js:71:3)
+    at runAndTransformResultsToJestFormat (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:122:21)
+    at jestAdapter (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:79:19)
+    at runTestInternal (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-runner\build\runTest.js:444:34)
+    at Object.worker (C:\Dev\node-projects\jest-txt-reporter\node_modules\jest-runner\build\testWorker.js:106:12)</failure>
+    </testcase>
+    <testcase classname="Sample Test Suite 1 Test 4" name="Sample Test Suite 1 Test 4" time="0.001">
+    </testcase>
+    <testcase classname="Sample Test Suite 1 Test 5" name="Sample Test Suite 1 Test 5" time="0.002">
+    </testcase>
+    <testcase classname="Sample Test Suite 1 Test 6" name="Sample Test Suite 1 Test 6" time="0.003">
+    </testcase>
+    <testcase classname="Sample Test Suite 1 Test 7" name="Sample Test Suite 1 Test 7" time="0.001">
+    </testcase>
+    <testcase classname="Sample Test Suite 1 Test 8" name="Sample Test Suite 1 Test 8" time="0">
+    </testcase>
+    <testcase classname="Sample Test Suite 1 Test 9" name="Sample Test Suite 1 Test 9" time="0.001">
+    </testcase>
+    <testcase classname="Sample Test Suite 1 Test 10" name="Sample Test Suite 1 Test 10" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>
