@@ -13,7 +13,17 @@ module.exports = {
 
   // An array of reporter names to use.
   // Include your custom reporter here, such as './path-to-custom-reporter.js'.
-  reporters: ['default', 'jest-junit', './dist/junit'],
+  reporters: [
+    [
+      './dist/custom-reporter.js',
+      {
+        companyName: 'Your Company',
+        projectName: 'Your Project',
+        reportType: ['text'], // Specify the desired report type here
+        reportPath: './reports',
+      },
+    ],
+  ],
 
   // The setupFiles property specifies a list of setup files to run before the tests.
   // You can use this to set up any global configurations or mocks.
